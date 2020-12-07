@@ -47,7 +47,7 @@ ARRA_entry.grid(row = 2,column = 1, padx = 5, pady = 5)
 TRTS_entry.grid(row = 3,column = 1, padx = 5, pady = 5)
 
 
-#Кнопка расчёта загрузки и очмстки данных
+#Кнопка расчёта загрузки и очистки данных
 count_button = Button(text = "Расчитать загрузку", bg = "#FFF", fg = "#800080", font = "16", command = count_load)
 clear_button = Button(text = "Очистить", command = clear)
 quit_button = Button(root, text = "Выйти",command = root.destroy)
